@@ -1,0 +1,191 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2/dist/spectrum.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2/dist/spectrum.min.js"></script>
+  <script src="CP.js"></script>
+  <link rel='stylesheet' href='CP.css' />
+</head>
+<body style="background-color: rgb(212, 217, 218);">
+<br/>  
+<div class="container">
+    <div class="row"> 
+        <div class="col-md-12">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                <a class="nav-link active" href="#Heading" data-toggle = "pill">Heading</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#SideBar" data-toggle = "pill">Sidebar</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#MainBody" data-toggle = "pill">Main body</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+    
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active show" id="Heading">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input id="headBG" type="color" /> <label> Background color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="headName" type="color"/> <label> Your Name</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="headButtonColor" type="color" /> <label> Contact button color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="headMenuTextColor" type="color" /> <label> Menu text color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="headDesignationColor" type="color" /> <label> Designation</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="headContactButtonText" type="color" /> <label> Contact button text color</label>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="SideBar">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Get in Touch button color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color"/> <label> Website button color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Phone # color </label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Get in Touch text color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Website button text color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Sidebar color</label>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="MainBody">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Profile Background color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color"/> <label> Profile Button color </label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Hyperlink color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Profile text color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Profile button text color</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="" type="color" /> <label> Contact button text color</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    <br/>
+    <div class="card"  style="border-radius: 2px; border-color: rgb(219, 216, 216); box-shadow: 0 0 10px rgb(199, 197, 197);">
+     <div class="row">
+        <div class="col-md-12"> 
+            <nav class="navbar navbar-expand-sm navbar-dark" id="bgHead" style="background-color: #fc0b23; width:100%">
+
+                <a class="navbar-brand" href="#">
+                    <img src="Blank_DP.jpg" class="rounded-circle" alt="Cinque Terre" width="40" height="40" style="vertical-align: text-bottom;"> 
+                    <span>
+                        <dl style="display: inline-block;margin-bottom: 0px;">
+                            <dt id="userName">Your Name</dt>
+                            <dt style="font-size: 10px;" id="userRole">UI DEVELOPER</dt>
+                        </dl>
+                    </span>
+                </a>
+               
+                <ul class="navbar-nav ml-auto" style="text-align: right;">
+                  <li class="nav-item" id="contactbutton" style="background-color: white;">
+                    <a class="nav-link" id="contact"  style="color: #fc0b23;" href="#">Contact me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link menuItem"  id="menu" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link menuItem" id="menu1" href="#">Get in Touch</a>
+                  </li>
+                </ul>
+              </nav>
+              
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8" style="padding-left:35px;">
+            <br/><h4><b>There are many variations of passages</b></h4><br/>
+            <p>
+                <a href=# style="color: darkgoldenrod;"><u>There are many variations of passages</u></a> There are many variations of passages of Lorem lpsum avaliable, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believeable. If you are going to use a passage of Lorem lpum.
+              </p>
+            <p>
+                There are many variations of passages of Lorem lpsum avaliable, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believeable. If you are going to use a passage of Lorem lpum.
+            </p>
+            
+            <div class="alert alert-danger">
+                <img src="Profile.png" class="rounded" alt="Cinque Terre" width="200px" height="200px" style="vertical-align: text-bottom;float: left;object-fit: contain;object-position: top;padding-right: 50px;"> 
+                <strong>Contrary of popular belief</strong> 
+                <p>
+                    Contary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+Richard McClintock, a
+                </p>
+
+                <button type="button" class="btn btn-danger" style="width: 50%; border-radius: 50px;">Send it to me</button>
+            </div>
+        </div>
+    
+        <div class="col-md-4" style="padding-right: 30px;">
+            <div class="alert alert-danger">
+                <div class="card" style="background: #f8d7da;border: 0px;">
+                    <img class="card-img-top" src="Profile.png" alt="Card image">
+                    <div class="card-body">
+                          <p class="card-text">Your Name</p>
+                          <p class="card-text">Company Name</p>
+                          <p class="card-text">Designation</p>
+                      <br/>
+                      <h4 class="card-title">123-234-2112</h4>
+                      <div style="padding-bottom: 10px;">
+                        <a href="#" class="btn btn-danger stretched-link" style="width: 100%;">Get in Touch</a>
+                      </div>
+                      <div style="padding-bottom: 10px;">
+                        <a href="#" class="btn stretched-link" style="width: 100%;background-color: white;">View Website</a>
+                      </div>
+                      <div style="text-align: center;">
+                        <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+                        <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
+                        <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       
+    </div>
+ 
+</div>
+
+</body>
+</html>

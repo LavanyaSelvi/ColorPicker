@@ -1,0 +1,54 @@
+.container{
+    border:1px solid rgb(247, 244, 244);
+    padding:20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(199, 197, 197);
+}
+
+.sp-container button.sp-choose
+{
+    background-color: rgb(44, 208, 236);
+    border-radius: 10px;
+    height:30px;
+    width:140px;
+}
+.sp-container button.sp-cancel
+{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    height:30px;
+    width:55px;
+}
+
+.sp-palette-container::before 
+{
+      font-weight: bold;
+      color: black;
+      content: "My Recent Colors";
+}
+
+      .sp-palette-container 
+{
+          border-right: 0px;
+}
+
+.card-body p
+{
+    margin-bottom: 0px;
+}
+
+.btn-danger
+{
+    background-color: #fc0b23;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+  background: white;
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.nav-justified .nav-item, .nav-justified>.nav-link{
+  margin: 0px 5px;
+  background: #e9ecef;
+}
